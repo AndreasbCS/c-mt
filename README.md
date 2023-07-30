@@ -1,7 +1,7 @@
 # c-mt
 A framework for modeling dynamics of human mental states. Psychological principles for constraining mental-state transitions is implemented as a transition system using Answer Set Programming (ASP). 
 
-## Emotional Reasoning Running Example
+## Emotional Reasoning Program and Test Results
 This repository presents an ASP implementation of an Emotion Decision Graph (EDG), a synthetic dataset with 256 input-goal pairs, and two series of test results based on 512 runs of the program. This consists of 256 runs using Hedonic Emotion Regulation (HER) based integrity constraints, and 256 runs using Utilitarian Emotion Regulation (UER) based integrity constraints.
 
 ### Prerequisites
@@ -12,8 +12,14 @@ CLINGO is an Answer Set Programming system to ground and solve logic programs.
 
 ### Running the program
 
-For Hedonic Emotion Regulation: Command line: C:\clingo>clingo CAE-HER.lp
-For Utilitarian Emotion Regulation: Command line: C:\clingo>clingo CAE-UER.lp
+For Hedonic Emotion Regulation: 
+```
+Command line: C:\clingo>clingo CAE-HER.lp
+```
+For Utilitarian Emotion Regulation: 
+```
+Command line: C:\clingo>clingo CAE-UER.lp
+```
 
 The program generates a plan (sequence of actions) that follows principles for HER or UER, based on an initial emotion state leading to a goal emotion state.
 
@@ -27,19 +33,21 @@ Encoded in Answer Set Programming (ASP).
 * An emotion state is a configuration of four classes and their values.
 * A plan is a sequence of action from an initial state to a goal state.
 
-Classes:			need_consistency, goal_consistency, accountability, control_potential
+```
+Classes:                    need_consistency, goal_consistency, accountability, control_potential
 
-Values in number format:	  For the classes:
-1: low   			              need_consistency | goal_consistency | control_potential
-2: undecided   	            need_consistency | goal_consistency | control_potential
-3: high   			            need_consistency | goal_consistency | control_potential
+Values in number format:    For the classes:
+
+1: low                      need_consistency | goal_consistency | control_potential
+2: undecided                need_consistency | goal_consistency | control_potential
+3: high                     need_consistency | goal_consistency | control_potential
 4: undecided                accountability
-5: other    		            accountability
-6: self    			            accountability
-7: environment 	            accountability
+5: other                    accountability
+6: self                     accountability
+7: environment              accountability
 
-Initial state format:		    init_on(Class, Value). for each class.
-Goal state format:		      goal_on(Class, Value). for each class.
-Plan action format: 		    influence(Class,Value,Time) for each action.
-
+Initial state format:        init_on(Class, Value). for each class.
+Goal state format:           goal_on(Class, Value). for each class.
+Plan action format:          influence(Class,Value,Time) for each action.
+```
 
