@@ -2,7 +2,7 @@
 A framework for modeling dynamics of human mental states. Psychological principles for constraining mental-state transitions is implemented as a transition system using Answer Set Programming (ASP). 
 
 ## Emotional Reasoning Program and Test Results
-This repository presents an ASP implementation of an Emotion Decision Graph (EDG), a synthetic dataset with 256 input-goal pairs, and two series of test results based on 512 runs of the program. This consists of 256 runs using Hedonic Emotion Regulation (HER) based integrity constraints, and 256 runs using Utilitarian Emotion Regulation (UER) based integrity constraints.
+This repository presents 1) an ASP implementation of an Emotion Decision Graph (EDG), 2) a synthetic dataset with 256 input-goal pairs, and 3) two series of test results based on 512 runs of the program. The test results consist of 256 runs using Hedonic Emotion Regulation (HER) based integrity constraints, and 256 runs using Utilitarian Emotion Regulation (UER) based integrity constraints.
 
 ### Prerequisites
 
