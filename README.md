@@ -24,7 +24,7 @@ For Utilitarian Emotion Regulation:
 Command line: C:\clingo>clingo CAE-UER.lp
 ```
 
-The program generates a plan (sequence of actions) that follows principles for HER or UER, based on an initial emotion state leading to a goal emotion state.
+The program generates a plan (sequence of actions) that follows principles for Hedonic Emotion Regulation or Utilitarian Emotion Regulation, based on an initial emotion state leading to a goal emotion state.
 
 ### Results of test cases: Hedonic versus Utilitarian emotion regulation constraints.
 
