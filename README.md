@@ -3,7 +3,8 @@ A logic-based framework for modeling dynamics of human mental states. Psychologi
 
 ## Emotional Reasoning Program, DATASET (init-goal paris) and Test Results
 This repository contains: 
-* An ASP program to model emotion states and emotion transitions with [Hedonic Emotion Regulation (HER) based integrity constraints](https://github.com/AndreasbCS/c-mt/blob/main/CAE-HER.lp) and [Utilitarian Emotion Regulation (UER) based integrity constraints](https://github.com/AndreasbCS/c-mt/blob/main/CAE-UER.lp). 
+* An ASP program to model emotion transitions using [Hedonic Emotion Regulation (HER) based integrity constraints](https://github.com/AndreasbCS/c-mt/blob/main/CAE-HER.lp)
+* An ASP program to model emotion transitions using [Utilitarian Emotion Regulation (UER) based integrity constraints](https://github.com/AndreasbCS/c-mt/blob/main/CAE-UER.lp). 
 * A synthetic [dataset](https://github.com/AndreasbCS/c-mt/blob/main/CAE-init-goal-dataset.lp) with 256 input-goal pairs. 
 * Two series of test results based on 512 runs of the program. The test results consist of [256 runs](https://github.com/AndreasbCS/c-mt/blob/main/CAE16%20Hedonic%20Test%20Results.pdf) using HER-based integrity constraints, and [256 runs](https://github.com/AndreasbCS/c-mt/blob/main/CAE16%20Utilitarian%20Test%20Results.pdf) using UER-based integrity constraints.
 
