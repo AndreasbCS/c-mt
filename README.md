@@ -1,8 +1,11 @@
-# c-mt
+# C-MT: 
 A framework for modeling dynamics of human mental states. Psychological principles for constraining mental-state transitions is implemented as a transition system using Answer Set Programming (ASP). 
 
 ## Emotional Reasoning Program and Test Results
-This repository presents 1) an ASP implementation of an Emotion Decision Graph (EDG), 2) a synthetic dataset with 256 input-goal pairs, and 3) two series of test results based on 512 runs of the program. The test results consist of 256 runs using Hedonic Emotion Regulation (HER) based integrity constraints, and 256 runs using Utilitarian Emotion Regulation (UER) based integrity constraints.
+This repository contains: 
+(1) An ASP program to model emotion states and emotion transitions. 
+(2) A synthetic dataset with 256 input-goal pairs. 
+(3) Two series of test results based on 512 runs of the program. The test results consist of 256 runs using Hedonic Emotion Regulation (HER) based integrity constraints, and 256 runs using Utilitarian Emotion Regulation (UER) based integrity constraints.
 
 ### Prerequisites
 
@@ -36,7 +39,7 @@ Encoded in Answer Set Programming (ASP).
 ```
 Classes:                    need_consistency, goal_consistency, accountability, control_potential
 
-Values in number format:    For the classes:
+Explaination of values in number format:    For the classes:
 
 1: low                      need_consistency | goal_consistency | control_potential
 2: undecided                need_consistency | goal_consistency | control_potential
