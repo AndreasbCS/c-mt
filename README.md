@@ -1,7 +1,7 @@
-# C-MT: 
-A framework for modeling dynamics of human mental states. Psychological principles for constraining mental-state transitions is implemented as a transition system using Answer Set Programming (ASP). 
+# C-MT: Emotional Reasoning
+A logic-based framework for modeling dynamics of human mental states. Psychological principles for constraining mental-state transitions is implemented as a transition system using Answer Set Programming (ASP). 
 
-## Emotional Reasoning Program and Test Results
+## Emotional Reasoning Program, DATASET (init-goal paris) and Test Results
 This repository contains: 
 (1) An ASP program to model emotion states and emotion transitions. 
 (2) A synthetic dataset with 256 input-goal pairs. 
