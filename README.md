@@ -3,9 +3,9 @@ A logic-based framework for modeling dynamics of human mental states. Psychologi
 
 ## Emotional Reasoning Program, DATASET (init-goal paris) and Test Results
 This repository contains: 
-(1) An ASP program to model emotion states and emotion transitions. 
-(2) A synthetic dataset with 256 input-goal pairs. 
-(3) Two series of test results based on 512 runs of the program. The test results consist of 256 runs using Hedonic Emotion Regulation (HER) based integrity constraints, and 256 runs using Utilitarian Emotion Regulation (UER) based integrity constraints.
+(1) An ASP program to model emotion states and emotion transitions with [Hedonic Emotion Regulation (HER) based integrity constraints](https://github.com/AndreasbCS/c-mt/blob/main/CAE-HER.lp) and [Utilitarian Emotion Regulation (UER) based integrity constraints](https://github.com/AndreasbCS/c-mt/blob/main/CAE-UER.lp). 
+(2) A synthetic [dataset](https://github.com/AndreasbCS/c-mt/blob/main/CAE-init-goal-dataset.lp) with 256 input-goal pairs. 
+(3) Two series of test results based on 512 runs of the program. The test results consist of [256 runs](https://github.com/AndreasbCS/c-mt/blob/main/CAE16%20Hedonic%20Test%20Results.pdf) using HER-based integrity constraints, and [256 runs](https://github.com/AndreasbCS/c-mt/blob/main/CAE16%20Utilitarian%20Test%20Results.pdf) using UER-based integrity constraints.
 
 ### Prerequisites
 
@@ -54,3 +54,11 @@ Goal state format:           goal_on(Class, Value). for each class.
 Plan action format:          influence(Class,Value,Time) for each action.
 ```
 
+### Authors
+
+* Andreas Brännström {andreasb@cs.umu.se} [Homepage](https://people.cs.umu.se/andreasb/)
+* Juan Carlos Nieves {jcnieves@cs.umu.se} [Homepage](https://www.umu.se/en/staff/juan-carlos-nieves/)
+
+Department of Computing Science  
+Umeå university  
+SE-901 87, Umeå, Sweden  
