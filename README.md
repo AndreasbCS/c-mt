@@ -1,5 +1,5 @@
 # C-MT: Emotional Reasoning
-This repository presents a logic-based framework for modeling dynamics of human mental states, particularly in the setting of emotions. Psychological principles for emotion regulation are captured as constraints in a transition system implemented using Answer Set Programming (ASP). 
+This repository presents a logic-based framework for modeling dynamics of human mental states, particularly in the setting of emotions. Psychological principles for emotion states and emotion transitions are captured in a transition system implemented using Answer Set Programming (ASP). 
 
 Different emotion theories are formalized: the Appraisal theory of Emotion (AE), Hedonic Emotion Regulation (HER), and Utilitarian Emotion Regulation (UER), capturing links between human emotions and their underlying causes. 
 
