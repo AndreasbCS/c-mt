@@ -47,15 +47,15 @@ The initial state and the goal state is configured using the following classes a
 ```
 Classes:                    need_consistency, goal_consistency, accountability, control_potential
 
-Explaination of values in number format:    For the classes:
+Explaination of numerical values:      For the classes:
 
-1: low                      need_consistency | goal_consistency | control_potential
-2: undecided                need_consistency | goal_consistency | control_potential
-3: high                     need_consistency | goal_consistency | control_potential
-4: undecided                accountability
-5: other                    accountability
-6: self                     accountability
-7: environment              accountability
+1: low                                 need_consistency | goal_consistency | control_potential
+2: undecided                           need_consistency | goal_consistency | control_potential
+3: high                                need_consistency | goal_consistency | control_potential
+4: undecided                           accountability
+5: other                               accountability
+6: self                                accountability
+7: environment                         accountability
 
 Initial state format:        init_on(Class, Value). for each class.
 Goal state format:           goal_on(Class, Value). for each class.
