@@ -6,7 +6,7 @@ Different emotion theories are formalized: the Appraisal theory of Emotion (AE),
 * Emotion states: By following the psychological theory of AE, where emotions are defined based on need_consistency, goal_consistency, accountability, and control_potential, an emotion state-space is defined, through which a set of 16 basic human emotions can be explained. 
 * Emotion transitions: By following the theories of HER and UER, different constraints for emotional-change are defined. HER focuses on augmenting positive emotions while diminishing negative ones. Conversely, UER seeks to promote particular emotions, including potentially negative ones, that enhance specific attributes, such as motivation or control, serving a utilitarian purpose in the long run. Consequently, HER and UER adopt contrasting principles for effecting emotional change. By examining the trajectories produced through the application of either HER or UER within the state-space of AE, we can compare and evaluate their respective behaviors.
 
-## Emotional Reasoning Program, DATASET (init-goal pairs) and Test Results
+## Repository Parts
 This repository contains: 
 * An ASP program with [Hedonic Emotion Regulation (HER) based constraints](https://github.com/AndreasbCS/c-mt/blob/main/CAE-HER.lp)
 * An ASP program with [Utilitarian Emotion Regulation (UER) based constraints](https://github.com/AndreasbCS/c-mt/blob/main/CAE-UER.lp). 
