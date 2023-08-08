@@ -50,7 +50,7 @@ goal_on(accountability, 7).
 goal_on(control_potential, 3).
 ```
 
-In the provided [dataset](https://github.com/AndreasbCS/c-mt/blob/main/CAE-init-goal-dataset.lp), a range of 256 different init-goal state pairs are specified.
+In the provided [dataset](https://github.com/AndreasbCS/c-mt/blob/main/CAE-init-goal-dataset.lp), a range of 256 different init-goal state configuration are specified. In order to run a configuration from the dataset, you may copy a desired configuration and paste it in the program.
 
 ### Results of test cases: Hedonic versus Utilitarian emotion regulation constraints.
 
